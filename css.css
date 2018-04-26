@@ -28,12 +28,33 @@ nav a:hover{
 
 h1{
     font-family: sans-serif;
-    color: white;
+    color: #fe9028;
+    font-size: 4em;
 }
 
 h2{
     font-family: sans-serif;
     color: white;
+}
+
+p{
+    font-family: sans-serif;
+    color: gainsboro;
+}
+
+h3{
+    font-family: sans-serif;
+    color: gainsboro;
+}
+
+h4{
+    font-family: sans-serif;
+    color: #fe9028;
+}
+
+p1{
+    font-family: sans-serif;
+    color: deeppink;
 }
 
 
