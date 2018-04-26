@@ -1,3 +1,39 @@
 img{
     width: 100%;
 }
+
+body{
+    background-color: #1c212d;
+}
+
+
+nav{
+    text-align: right;
+}
+
+nav .content a{
+    text-decoration: none;
+    font-family: Avenir;
+    color: white;
+    padding: 4px;
+    display: inline-flex;
+}
+
+nav a:hover{
+    background-color: #fe9028;
+    color: white;
+    border: 1px;
+    padding: 2px;
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: sans-serif;
+    color: white;
+}
+
+
