@@ -57,4 +57,25 @@ p1{
     color: deeppink;
 }
 
+a{
+    font-family: sans-serif;
+    color: #fe9028;
+}
+
+a :hover{
+    color: white;
+}
+
+#navne{
+    margin: 2em;;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#animation{
+    margin: 2em;
+    padding: 2em;
+
+}
+
 
