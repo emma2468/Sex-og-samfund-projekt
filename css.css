@@ -75,7 +75,106 @@ a :hover{
 #animation{
     margin: 2em;
     padding: 2em;
-
 }
+
+#idé{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#historie{
+    margin: 2em;
+    padding: 2em;
+    border: 2px white;
+}
+
+#persona{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#moodboard{
+    margin: 2em;
+    padding: 2em;
+}
+
+#styletile{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#skitser{
+    margin: 2em;
+    padding: 2em;
+}
+
+#layoutdiagram{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#sekvensdiagram{
+    margin: 2em;
+    padding: 2em;
+}
+
+#asset{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#tests .sectionawrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tests .column{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+#rests .column_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 1em;
+    border: 1px;
+    padding: 0;
+}
+
+.test_1{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.test_2{
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#vores_stand{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+#trello{
+    margin: 2em;
+    padding: 2em;
+}
+
+#burn-down{
+    margin: 2em;
+    padding: 2em;
+    background-color: #7fc8e1;
+}
+
+
 
 
