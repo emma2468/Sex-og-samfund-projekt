@@ -70,6 +70,7 @@ a :hover{
     margin: 2em;;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #animation{
@@ -81,6 +82,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #historie{
@@ -93,6 +95,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #moodboard{
@@ -104,6 +107,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #skitser{
@@ -115,6 +119,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #sekvensdiagram{
@@ -126,6 +131,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #tests .sectionawrapper{
@@ -162,6 +168,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #trello{
@@ -173,6 +180,7 @@ a :hover{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 
