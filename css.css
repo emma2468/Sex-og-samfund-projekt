@@ -115,19 +115,7 @@ a :hover{
     padding: 2em;
 }
 
-#iconer{
-    margin: 2em;
-    padding: 2em;
-    background-color: #7fc8e1;
-    border-radius: 3em;
-}
-
 #sekvensdiagram{
-    margin: 2em;
-    padding: 2em;
-}
-
-#asset{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
@@ -137,6 +125,7 @@ a :hover{
 #tests .sectionawrapper{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #tests .column{
@@ -164,23 +153,28 @@ a :hover{
     padding: 0.5em;
 }
 
-#vores_stand{
+#asset{
     margin: 2em;
     padding: 2em;
     background-color: #7fc8e1;
     border-radius: 3em;
+}
+
+#vores_stand{
+    margin: 2em;
+    padding: 2em;
 }
 
 #trello{
     margin: 2em;
     padding: 2em;
+    background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 #burn-down{
     margin: 2em;
     padding: 2em;
-    background-color: #7fc8e1;
-    border-radius: 3em;
 }
 
 
