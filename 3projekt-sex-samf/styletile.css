@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 2.8vw;
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+
+    position: relative;
+
+overflow: hidden;
+}
+
+#baggrund_1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(badev%C3%A6relse-01.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+    top: 0vw;
+}
+
+/* PIGE */
+
+
+#pige_container {
+    background-image: url(figur_done_baggrund.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+
+    width: 100vw;
+    height: 56.25vw;
+}
+
+.pige_position_in {
+    top: 2vw;
+    left: 0vw;
+}
+
+.pige_position_out {
+    top: 50vw;
+    left: 0vw;
+}
+
+
+#pige_send_container {
+    position: absolute;
+}
+
+#send_sprite {
+    width: 100vw;
+    height: 57.35vw;
+
+    background-image: url(sendsprite_done_send.svg);
+    background-size: 400% 100%;
+}
+
+.send {
+    animation-name: send;
+    animation-duration: 2s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: 1;
+}
+
+
+@keyframes send {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 400% 0%;
+    }
+}
+
+
+#pige_slet_container {
+    position: absolute;
+}
+
+#slet_sprite {
+     width: 100vw;
+    height: 58.77vw;
+
+    background-image: url(sletsprite_DONE_sprite.svg);
+    background-size: 300% 100%;
+/*    background-position: -200% 0%;*/
+}
+
+.slet_1 {
+    animation-name: slet_1;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes slet_1 {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -200% 0%;
+    }
+}
+
+
+/* Q1 */
+
+.question_1 {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+
+    position: absolute;
+
+    top: 1vw;
+    left: 20vw;
+}
+
+
+.sender {
+     display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 15vw;
+    left: 17vw;
+}
+
+.sletter_1 {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 15vw;
+    left: 57vw;
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* FAKTABOKS */
+
+.FB_send {
+
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+
+    position: absolute;
+
+    top: 25vw;
+    right: 70vw;
+    left: 0.5vw;
+}
+
+hr {
+    margin: auto;
+    background-color: #FD9028;
+    height: 4px;
+    border: 0;
+    width: 150px;
+}
+
+.FB_slet {
+
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+
+    position: absolute;
+
+    top: 25vw;
+    right: 70vw;
+    left: 0.5vw;
+}
+
+
+
+/* ANDRE KNAPPER */
+
+.videre_1 {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+
+    position: absolute;
+
+    top: 46vw;
+    left: 85vw;
+
+    cursor: pointer;
+}
+
+
+.forfra {
+       display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding: 0vw 4vw 0vw 4vw;
+
+    position: absolute;
+
+    top: 46vw;
+    left: 80vw;
+
+    cursor: pointer;
+}
+
+
+.titelbillede {
+    width: 100%;
+    height: 100%;
+    background-image: url(titelbillede_1.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+    top: 0vw;
+}

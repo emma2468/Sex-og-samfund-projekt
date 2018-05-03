@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 2.8vw;
+}
+
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+
+    position: relative;
+
+overflow: hidden;
+}
+
+#baggrund_1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(asfalt.png);
+    background-size: 100% 100%;
+
+    position: absolute;
+    top: 0vw;
+}
+
+
+/* DRENG */
+
+/* #dreng_container {
+    background-image: url(scene2_figur_done_baggrundsbilelde.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+
+    width: 100vw;
+    height: 56.25vw;
+}
+*/
+
+#dreng_screenS_container {
+    position: absolute;
+
+    bottom: -1vw;
+    left: 15vw;
+}
+
+#screenshot_sprite {
+    width: 67vw;
+    height: 54.2vw;
+
+    background-image: url(spritexxxxxx-02.svg);
+    background-size: 300% 100%;
+}
+
+.dreng_position_in {
+    top: 0vw;
+    left: 10vw;
+}
+
+.dreng_position_out {
+    top: 60vw;
+    left: 10vw;
+}
+
+.screenshot {
+    animation-name: screenshot;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 1;
+}
+
+
+@keyframes screenshot {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -300% 0%;
+    }
+}
+
+
+/* QUESTION 2 */
+
+.question_2 {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    max-width: 35vw;
+
+    top: 1vw;
+    left: 3vw;
+}
+
+
+.deler {
+     display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 22px 5px 22px;
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 15vw;
+    left: 7vw;
+}
+
+.sletter_2 {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 25px 5px 25px;
+
+    position: absolute;
+
+    cursor: pointer;
+
+    top: 15vw;
+    left: 27vw;
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* FAKTABOKS */
+
+.FB_del {
+
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+
+
+    position: absolute;
+
+    top: 5vw;
+    right: 70vw;
+    left: 2vw;
+}
+
+hr {
+    margin: auto;
+    background-color: #FD9028;
+    height: 4px;
+    border: 0;
+    width: 150px;
+}
+
+.FB_slet_2 {
+
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+
+    position: absolute;
+
+    top: 5vw;
+    right: 70vw;
+    left: 2vw;
+}
+
+/* MOBILER */
+
+
+#mobil1_container {
+
+    width: 100vw;
+    height: 56.25vw;
+
+    background-image: url(bl%C3%A5_mobil-01.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+}
+
+.mobil1 {
+    animation-name: mobil1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mobil1 {
+    from {
+        top: 52vw;
+        left: -50vw;
+        transform: rotate(20deg);
+    }
+
+    to {
+        top: 12vw;
+        left: -40vw;
+        transform: rotate(20deg);
+    }
+}
+
+.mobil1_position_in {
+        top: 12vw;
+        left: -40vw;
+        transform: rotate(20deg);
+}
+
+.mobil1_position_out {
+        top: 52vw;
+        left: -50vw;
+        transform: rotate(20deg);
+}
+
+
+#mobil2_container {
+
+    width: 100vw;
+    height: 56.25vw;
+
+    background-image: url(gr%C3%B8n_mobil-01.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+}
+
+.mobil2 {
+    animation-name: mobil2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mobil2 {
+    from {
+        top: -20vw;
+        left: -72vw;
+        transform: rotate(110deg);
+    }
+
+    to {
+        top: -20vw;
+        left: -35vw;
+        transform: rotate(110deg);
+    }
+}
+
+.mobil2_position_in {
+       top: -20vw;
+        left: -35vw;
+        transform: rotate(110deg);
+}
+
+.mobil2_position_out {
+        top: -20vw;
+        left: -72vw;
+        transform: rotate(110deg);
+}
+
+
+#mobil3_container {
+
+    width: 100vw;
+    height: 56.25vw;
+
+    background-image: url(mobil2.svg);
+    background-size: 100% 100%;
+
+    position: absolute;
+
+    top: -20vw;
+    left: 70vw;
+    transform: rotate(220deg);
+}
+
+.mobil3 {
+    animation-name: mobil3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mobil3 {
+    from {
+        top: -20vw;
+        left: 70vw;
+        transform: rotate(220deg);
+    }
+
+    to {
+        top: -20vw;
+        left: 40vw;
+        transform: rotate(220deg);
+    }
+}
+
+
+.mobil3_position_in {
+        top: -20vw;
+        left: 40vw;
+        transform: rotate(220deg);
+}
+
+.mobil3_position_out {
+        top: -20vw;
+        left: 70vw;
+        transform: rotate(220deg);
+}
+
+
+#mobil4_container {
+
+    width: 100vw;
+    height: 56.25vw;
+
+    background-image: url(lyser%C3%B8d_mobil-01.svg);
+
+    background-size: 100% 100%;
+
+    position: absolute;
+
+}
+
+.mobil4 {
+    animation-name: mobil4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mobil4 {
+    from {
+        top: 50vw;
+        left: 40vw;
+    }
+
+    to {
+        top: 14vw;
+        left: 40vw;
+    }
+}
+
+.mobil4_position_in {
+        top: 14vw;
+        left: 40vw;
+}
+
+.mobil4_position_out {
+        top: 50vw;
+        left: 40vw;
+}
+
+
+/* ANDRE KNAPPER */
+
+
+.forfra {
+    display: inline-block;
+    background-color: #1F2531;
+    color: white;
+    border: 3px solid #FD9028;
+    text-align: center;
+    border-radius: 2vw;
+    padding: 0vw 4vw 0vw 4vw;
+
+    position: absolute;
+
+    top: 46vw;
+    left: 80vw;
+
+    cursor: pointer;
+}
+
+

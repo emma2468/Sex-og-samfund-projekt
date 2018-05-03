@@ -180,9 +180,16 @@ a :hover{
     border-radius: 3em;
 }
 
+#SoMe{
+    margin: 2em;
+    padding: 2em;
+}
+
 #burn-down{
     margin: 2em;
     padding: 2em;
+    background-color: #7fc8e1;
+    border-radius: 3em;
 }
 
 
